@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: application
+  cloud:
+    vault:
+      authentication: TOKEN
+      token: <root token>
+      host: localhost
+      port: 8200
+      scheme: http
+      fail-fast: true
+      kv:
+        enabled: true
+  config:
+    import: vault://secret/application
