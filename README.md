@@ -2,7 +2,7 @@
 
 A very small project to test spring cloud vault.
 
-1. Install vault locally
+1. Install vault locally: https://learn.hashicorp.com/tutorials/vault/getting-started-install?in=vault/getting-started
 2. In a new terminal, start in dev mode `vault server -dev`
 3. Copy the file `src/main/resources/bootstrap.yml.template` to `src/main/resources/bootstrap.yml` and replace the token
    placeholder with the root token printed by the vault server.
